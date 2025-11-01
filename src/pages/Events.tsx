@@ -7,7 +7,7 @@ const Events = () => {
       date: "Nov,2025 14",
       time: "9:00AM",
       title: "TechJam2.0 Flagship Hackathon",
-      description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn’t just a hackathon — it’s a launchpad for future tech leaders.",
+      description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn't just a hackathon — it's a launchpad for future tech leaders.",
       type: "Hackathon",
       color: "from-green-400 to-cyan-400",
       location: "Microsoft Office Noida",
@@ -15,6 +15,7 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
       tentative: true,
+      isLive: true,
 
     },
     {
@@ -118,7 +119,15 @@ const Events = () => {
   )}
                       </div>
                       <div>
-                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${event.color} text-white`}>{event.type}</span>
+                        <div className="flex items-center gap-2">
+                          <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${event.color} text-white`}>{event.type}</span>
+                          {event.isLive && (
+                            <span className="relative inline-flex items-center px-2 py-1 rounded-full text-xs font-bold bg-red-600 text-white">
+                              <span className="absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75 animate-ping"></span>
+                              <span className="relative">LIVE</span>
+                            </span>
+                          )}
+                        </div>
                         <div className="flex items-center text-gray-400 text-sm font-mono mt-1">
                           <Clock className="w-4 h-4 mr-1" />
                           {event.time}
