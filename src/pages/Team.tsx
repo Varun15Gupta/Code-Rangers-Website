@@ -1,6 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Twitter, Mail, Code2, Zap, Brain, Shield, Database, Globe } from "lucide-react";
-import T1 from "../assets/Team/T1.jpg";
+import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
 import T4 from "../assets/Team/T4.jpg";
