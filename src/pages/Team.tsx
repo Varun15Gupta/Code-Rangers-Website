@@ -4,6 +4,7 @@ import VarunImage from "../assets/Team/varun.jpg";
 import DhruvImage from "../assets/Team/dhruv.jpg";
 import HarshitImage from "../assets/Team/harshit.jpg";
 import NadishImage from "../assets/Team/nadish.jpg";
+import varshiniImage from "../assets/Team/varshini.jpg";
 import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
@@ -104,7 +105,7 @@ const Team = () => {
       name: "K Varshini",
       role: "Event Coordinator Lead",
       specialization: "UI/UX & Performance",
-      image: T10,
+      image: varshiniImage,
       skills: ["React", "TypeScript", "Three.js", "WebGL"],
       icon: (
         <a href="https://www.linkedin.com/in/varshini-kota-85a8082b0/" target="_blank" rel="noopener noreferrer">
