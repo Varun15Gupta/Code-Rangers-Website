@@ -5,6 +5,7 @@ import DhruvImage from "../assets/Team/dhruv.jpg";
 import HarshitImage from "../assets/Team/harshit.jpg";
 import NadishImage from "../assets/Team/nadish.jpg";
 import VarshiniImage from "../assets/Team/varshini.jpg";
+import PunitImage from "../assets/Team/punit.jpg";
 import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
@@ -79,7 +80,7 @@ const Team = () => {
       name: "Punit Kumar",
       role: "Devlopment Lead",
       specialization: "Embedded Systems",
-      image: T21,
+      image: PunitImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
