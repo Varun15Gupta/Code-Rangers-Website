@@ -6,7 +6,7 @@ import SM3 from "../assets/StartUp-Mindset/SM3.jpeg";
 import SM4 from "../assets/StartUp-Mindset/SM4.jpg";
 import SM6 from "../assets/StartUp-Mindset/SM6.jpg";
 import SM7 from "../assets/StartUp-Mindset/SM7.jpg";
-import T1 from "href=https://ik.imagekit.io/logicsync/T1.jpg?updatedAt=1762674734522";
+import T1 from "src/assets/Techjam/T1 jam.jpg";
 import T3 from "../assets/Techjam/T3.jpg";
 import T4 from "../assets/Techjam/T4.jpg";
 import T5 from "../assets/Techjam/T5.jpg";
