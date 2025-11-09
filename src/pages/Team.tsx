@@ -3,6 +3,7 @@ import { Github, Linkedin, Twitter, Mail, Code2, Zap, Brain, Shield, Database, G
 import VarunImage from "../assets/Team/varun.jpg";
 import DhruvImage from "../assets/Team/dhruv.jpg";
 import HarshitImage from "../assets/Team/harshit.jpg";
+import NadishImage from "../assets/Team/nadish.jpg";
 import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
@@ -206,7 +207,7 @@ const Team = () => {
       name: "Nadish",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: T13,
+      image: NadishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
