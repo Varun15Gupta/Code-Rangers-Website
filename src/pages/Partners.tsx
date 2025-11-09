@@ -1,0 +1,143 @@
+import React from "react";
+import { Award, Handshake } from "lucide-react";
+
+const Partners = () => {
+  const sponsors = [
+    {
+      name: "Sponsor 1",
+      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+1",
+      tier: "Platinum",
+    },
+    {
+      name: "Sponsor 2",
+      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+2",
+      tier: "Gold",
+    },
+    {
+      name: "Sponsor 3",
+      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+3",
+      tier: "Gold",
+    },
+    {
+      name: "Sponsor 4",
+      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+4",
+      tier: "Silver",
+    },
+  ];
+
+  const communityPartners = [
+    {
+      name: "Partner 1",
+      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+1",
+    },
+    {
+      name: "Partner 2",
+      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+2",
+    },
+    {
+      name: "Partner 3",
+      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+3",
+    },
+    {
+      name: "Partner 4",
+      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+4",
+    },
+  ];
+
+  return (
+    <div className="pt-16 min-h-screen">
+      {/* Our Sponsors Section */}
+      <section className="relative py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="flex items-center justify-center mb-6">
+              <Award className="w-12 h-12 text-yellow-400 mr-3" />
+              <h1 className="text-4xl md:text-6xl font-bold">
+                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">OUR SPONSORS</span>
+              </h1>
+            </div>
+            <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+              Powered by industry leaders who believe in our mission to shape the future of technology
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {sponsors.map((sponsor, index) => (
+              <div
+                key={index}
+                className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-8 border border-cyan-500/20 hover:border-yellow-500/50 transition-all duration-500 backdrop-blur-sm overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-orange-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10 flex items-center justify-center h-32">
+                  <img
+                    src={sponsor.image}
+                    alt={sponsor.name}
+                    className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Community Partners Section */}
+      <section className="relative py-20 border-t border-cyan-500/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="flex items-center justify-center mb-6">
+              <Handshake className="w-12 h-12 text-green-400 mr-3" />
+              <h2 className="text-4xl md:text-6xl font-bold">
+                <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">COMMUNITY PARTNERS</span>
+              </h2>
+            </div>
+            <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+              Collaborating with amazing communities to create a stronger tech ecosystem
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {communityPartners.map((partner, index) => (
+              <div
+                key={index}
+                className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-8 border border-cyan-500/20 hover:border-green-500/50 transition-all duration-500 backdrop-blur-sm overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10 flex items-center justify-center h-32">
+                  <img
+                    src={partner.image}
+                    alt={partner.name}
+                    className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="relative py-20 border-t border-cyan-500/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-12 border border-cyan-500/20 backdrop-blur-sm">
+            <Award className="w-16 h-16 text-yellow-400 mx-auto mb-6 animate-pulse" />
+            <h2 className="text-3xl font-bold text-white mb-4">
+              Become a <span className="text-yellow-400">Partner</span>
+            </h2>
+            <p className="text-gray-300 mb-8 text-lg">
+              Join us in shaping the future of technology. Partner with Code Rangers to empower the next generation of innovators.
+            </p>
+            <a
+              href="/contact"
+              className="bg-gradient-to-r from-yellow-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-yellow-500 transition-all duration-300 font-mono inline-block"
+            >
+              PARTNER WITH US
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Partners;
