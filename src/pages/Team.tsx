@@ -1,6 +1,9 @@
 import React from "react";
 import { Github, Linkedin, Twitter, Mail, Code2, Zap, Brain, Shield, Database, Globe } from "lucide-react";
-import T1 from "src/assets/Team/T1 team.jpg";
+import VarunImage from "../assets/Team/varun.jpg";
+import DhruvImage from "../assets/Team/dhruv.jpg";
+import HarshitImage from "../assets/Team/harshit.jpg";
+import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
 import T4 from "../assets/Team/T4.jpg";
@@ -26,7 +29,7 @@ const Team = () => {
       name: "Harshit Gupta",
       role: "President",
       specialization: "Full-Stack Developer",
-      image: T3,
+      image: HarshitImage,
       skills: ["JavaScript", "Web3", "React", "Node.js", "Java", "Kotlin"],
       social: {
         github: "https://github.com/harshitg20",
@@ -41,7 +44,7 @@ const Team = () => {
       name: "Dhruv Chaurasiya",
       role: "Vice-President",
       specialization: "AI & ML",
-      image: T2,
+      image: DhruvImage,
       skills: ["Python", "TensorFlow", "PyTorch", "Pandas", "Machine Learning"],
       social: {
         github: "https://github.com/dhruv108dstar",
@@ -56,7 +59,7 @@ const Team = () => {
       name: "Varun Gupta",
       role: "Secretary",
       specialization: "Full-Stack Developer",
-      image: T1,
+      image: VarunImage,
       skills: ["JavaScript", "React", "Node.js", "DSA", "Java", "Python"],
       social: {
         github: "https://github.com/Varun15Gupta",
