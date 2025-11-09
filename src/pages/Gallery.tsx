@@ -1,13 +1,13 @@
 import React from "react";
 import { Camera, Play, Maximize2, Users, Code2, Cpu, Zap } from "lucide-react";
 import SM1 from "../assets/StartUp-Mindset/SM1.jpeg";
-import SM2 from "../assets/StartUp-Mindset/sm2.jpeg";
+import sm2 from "../assets/StartUp-Mindset/sm2.jpeg";
 import SM3 from "../assets/StartUp-Mindset/SM3.jpeg";
 import SM4 from "../assets/StartUp-Mindset/SM4.jpg";
 import SM6 from "../assets/StartUp-Mindset/SM6.jpg";
 import SM7 from "../assets/StartUp-Mindset/SM7.jpg";
-import T1 from "../assets/Techjam/T1 jam.jpg";
-import T3 from "../assets/Techjam/T3 jam.jpg";
+import T1 from "../assets/Techjam/T1.jpg";
+import T3 from "../assets/Techjam/T3.jpg";
 import T4 from "../assets/Techjam/T4.jpg";
 import T5 from "../assets/Techjam/T5.jpg";
 import T7 from "../assets/Techjam/T7.jpg";
