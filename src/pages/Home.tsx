@@ -62,7 +62,7 @@ const Home = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-3xl transform rotate-3 blur-xl"></div>
               <div className="relative bg-gradient-to-br from-gray-900 to-black rounded-3xl p-1 shadow-2xl shadow-cyan-500/25">
-                <img src={CR3} alt="Code Rangers Logo" className="rounded-3xl w-full h-auto object-cover " />
+                <img src={CR} alt="Code Rangers Logo" className="rounded-3xl w-full h-auto object-cover " />
                 <div className="absolute inset-0 bg-gradient-to-t from-cyan-500/20 to-transparent rounded-3xl"></div>
               </div>
             </div>
