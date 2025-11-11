@@ -184,7 +184,7 @@ const Team = () => {
       name: "Bhumi Sharma",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: ,
+      image: BhumiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
