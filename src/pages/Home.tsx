@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Rocket, ChevronDown, Monitor, Wifi, Terminal, Users, Cpu, Shield, MessageCircle, Share2 } from "lucide-react";
 
-import CodeRangersLogo from "../assets/WhatsApp Image 2025-11-09 at 12.28.53_708e1398.jpg";
+import CodeRangersLogo from "../assets/CR1.png";
 
 const Home = () => {
   const features = [
