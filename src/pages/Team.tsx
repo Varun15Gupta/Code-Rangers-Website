@@ -14,6 +14,7 @@ import PunitImage from "../assets/Team/punit.jpg";
 import ShristiImage from "../assets/Team/shristi.jpg";
 import BhumiImage from "../assets/Team/bhumi.jpg";
 import AksharaImage from "../assets/Team/Akshara.jpg";
+import DivinaImage from "../assets/Team/divina.jpg";
 
 const Team = () => {
   const leadership = [
@@ -159,7 +160,7 @@ const Team = () => {
       name: "Divina Khattar",
       role: "Design Member",
       specialization: "Distributed Systems",
-      image: ,
+      image: DivinaImage,
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
         <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
