@@ -12,6 +12,7 @@ import NadishImage from "../assets/Team/nadish.jpg";
 import ManiImage from "../assets/Team/mani.jpg";
 import PunitImage from "../assets/Team/punit.jpg";
 import ShristiImage from "../assets/Team/shristi.jpg";
+import BhumiImage from "../assets/Team/bhumi.jpg";
 
 const Team = () => {
   const leadership = [
