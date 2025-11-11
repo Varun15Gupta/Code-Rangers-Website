@@ -11,7 +11,7 @@ import AnkitImage from "../assets/Team/ankit.jpg";
 import NadishImage from "../assets/Team/nadish.jpg";
 import ManiImage from "../assets/Team/mani.jpg";
 import PunitImage from "../assets/Team/punit.jpg";
-
+import ShristiImage from "../assets/Team/shristi.jpg";
 
 const Team = () => {
   const leadership = [
@@ -170,7 +170,7 @@ const Team = () => {
       name: "Srishti",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: ,
+      image: ShristiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
