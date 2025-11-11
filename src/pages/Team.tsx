@@ -6,6 +6,11 @@ import HarshitImage from "../assets/Team/harshit.jpg";
 import NadishImage from "../assets/Team/nadish.jpg";
 import VarshiniImage from "../assets/Team/varshini.jpg";
 import PunitImage from "../assets/Team/punit.jpg";
+import aakashImage from "../assets/Team/aakash.jpg";
+import divinaImage from "../assets/Team/divina.jpg";
+import maniImage from "../assets/Team/mani.jpg";
+import ankitImage from "../assets/Team/ankit.jpg";
+import aashishImage from "../assets/Team/aashish.jpg";
 import T1 from "../assets/Team/T1 team.jpg";
 import T2 from "../assets/Team/T2.jpg";
 import T3 from "../assets/Team/T3.jpg";
@@ -93,7 +98,7 @@ const Team = () => {
       name: "Mani Goel",
       role: "Design Lead",
       specialization: "Embedded Systems",
-      image: T8,
+      image: maniImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
@@ -119,7 +124,7 @@ const Team = () => {
       name: "Sneha Santra",
       role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
-      image: T30,
+      image: snehaImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -144,7 +149,7 @@ const Team = () => {
       name: "Aashish Dagar",
       role: "Event Coordinator Co-Lead",
       specialization: "Embedded Systems",
-      image: T9,
+      image: aashishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
@@ -158,7 +163,7 @@ const Team = () => {
       name: "Akash Yadav",
       role: "Devlopment Member",
       specialization: "Analytics & Visualization",
-      image: T40,
+      image: aakashImage,
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -170,7 +175,7 @@ const Team = () => {
       name: "Divina Khattar",
       role: "Design Member",
       specialization: "Distributed Systems",
-      image: T4,
+      image: divinaImage,
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
         <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
@@ -222,7 +227,7 @@ const Team = () => {
       name: "Ankit Kumar",
       role: "Event Coordinator Member",
       specialization: "Smart Contracts & DeFi",
-      image: T7,
+      image: ankitImage,
       icon: (
         <a target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
