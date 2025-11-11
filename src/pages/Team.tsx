@@ -1,24 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Twitter, Mail, Code2, Zap, Brain, Shield, Database, Globe } from "lucide-react";
-import T1 from "../assets/Team/T1.jpg";
-import T2 from "../assets/Team/T2.jpg";
-import T3 from "../assets/Team/T3.jpg";
-import T4 from "../assets/Team/T4.jpg";
-import T5 from "../assets/Team/T5.jpg";
-import T6 from "../assets/Team/T6.jpg";
-import T7 from "../assets/Team/T7.jpg";
-import T8 from "../assets/Team/T8.jpg";
-import T9 from "../assets/Team/T9.jpg";
-import T10 from "../assets/Team/T10.jpg";
-import T11 from "../assets/Team/T11.jpg";
-import T12 from "../assets/Team/T12.jpg";
-import T13 from "../assets/Team/T13.jpg";
-import T14 from "../assets/Team/T14.jpg";
-import T20 from "../assets/Team/T20.jpg";
-import T21 from "../assets/Team/T21.jpg";
-import T25 from "../assets/Team/T25.jpg";
-import T30 from "../assets/Team/T30.jpg";
-import T40 from "../assets/Team/T40.jpg";
+
 import VarunImage from "../assets/Team/varun.jpg";
 import DhruvImage from "../assets/Team/dhruv.jpg";
 import AashishImage from "../assets/Team/aashish.jpg";
@@ -174,7 +156,7 @@ const Team = () => {
       name: "Divina Khattar",
       role: "Design Member",
       specialization: "Distributed Systems",
-      image: T4,
+      image: ,
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
         <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
@@ -187,7 +169,7 @@ const Team = () => {
       name: "Srishti",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: T14,
+      image: ,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -200,7 +182,7 @@ const Team = () => {
       name: "Bhumi Sharma",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: T20,
+      image: ,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
