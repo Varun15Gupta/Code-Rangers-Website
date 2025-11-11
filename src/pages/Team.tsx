@@ -20,6 +20,8 @@ import T25 from "../assets/Team/T25.jpg";
 import T30 from "../assets/Team/T30.jpg";
 import T40 from "../assets/Team/T40.jpg";
 import VarunImage from "../assets/Team/varun.jpg";
+import DhruvImage from "../assets/Team/dhruv.jpg";
+
 
 const Team = () => {
   const leadership = [
