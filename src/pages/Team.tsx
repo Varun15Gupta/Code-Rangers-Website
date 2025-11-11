@@ -57,7 +57,7 @@ const Team = () => {
       name: "Varun Gupta",
       role: "Secretary",
       specialization: "Full-Stack Developer",
-      image: T1,
+      image: VarunImage,
       skills: ["JavaScript", "React", "Node.js", "DSA", "Java", "Python"],
       social: {
         github: "https://github.com/Varun15Gupta",
