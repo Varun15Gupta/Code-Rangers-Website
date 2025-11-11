@@ -21,7 +21,14 @@ import T30 from "../assets/Team/T30.jpg";
 import T40 from "../assets/Team/T40.jpg";
 import VarunImage from "../assets/Team/varun.jpg";
 import DhruvImage from "../assets/Team/dhruv.jpg";
-
+import AashishImage from "../assets/Team/aashish.jpg";
+import SnehaImage from "../assets/Team/sneha.jpg";
+import VarshiniImage from "../assets/Team/varshini.jpg";
+import AakashImage from "../assets/Team/aakash.jpg";
+import AnkitImage from "../assets/Team/ankit.jpg";
+import NadishImage from "../assets/Team/nadish.jpg";
+import ManiImage from "../assets/Team/mani.jpg";
+import PunitImage from "../assets/Team/punit.jpg";
 
 const Team = () => {
   const leadership = [
@@ -29,7 +36,7 @@ const Team = () => {
       name: "Harshit Gupta",
       role: "President",
       specialization: "Full-Stack Developer",
-      image: T3,
+      image: HarshitImage,
       skills: ["JavaScript", "Web3", "React", "Node.js", "Java", "Kotlin"],
       social: {
         github: "https://github.com/harshitg20",
@@ -44,7 +51,7 @@ const Team = () => {
       name: "Dhruv Chaurasiya",
       role: "Vice-President",
       specialization: "AI & ML",
-      image: T2,
+      image: DhruvImage,
       skills: ["Python", "TensorFlow", "PyTorch", "Pandas", "Machine Learning"],
       social: {
         github: "https://github.com/dhruv108dstar",
@@ -77,7 +84,7 @@ const Team = () => {
       name: "Punit Kumar",
       role: "Devlopment Lead",
       specialization: "Embedded Systems",
-      image: T21,
+      image: PunitImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -90,7 +97,7 @@ const Team = () => {
       name: "Mani Goel",
       role: "Design Lead",
       specialization: "Embedded Systems",
-      image: T8,
+      image: ManiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
@@ -103,7 +110,7 @@ const Team = () => {
       name: "K Varshini",
       role: "Event Coordinator Lead",
       specialization: "UI/UX & Performance",
-      image: T10,
+      image: VarshiniImage,
       skills: ["React", "TypeScript", "Three.js", "WebGL"],
       icon: (
         <a href="https://www.linkedin.com/in/varshini-kota-85a8082b0/" target="_blank" rel="noopener noreferrer">
@@ -116,7 +123,7 @@ const Team = () => {
       name: "Sneha Santra",
       role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
-      image: T30,
+      image: SnehaImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -141,7 +148,7 @@ const Team = () => {
       name: "Aashish Dagar",
       role: "Event Coordinator Co-Lead",
       specialization: "Embedded Systems",
-      image: T9,
+      image: AashishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
@@ -155,7 +162,7 @@ const Team = () => {
       name: "Akash Yadav",
       role: "Devlopment Member",
       specialization: "Analytics & Visualization",
-      image: T40,
+      image: AakashImage,
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -206,7 +213,7 @@ const Team = () => {
       name: "Nadish",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: T13,
+      image: NadishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -219,7 +226,7 @@ const Team = () => {
       name: "Ankit Kumar",
       role: "Event Coordinator Member",
       specialization: "Smart Contracts & DeFi",
-      image: T7,
+      image: AnkitImage,
       icon: (
         <a target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
