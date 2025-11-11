@@ -13,6 +13,7 @@ import ManiImage from "../assets/Team/mani.jpg";
 import PunitImage from "../assets/Team/punit.jpg";
 import ShristiImage from "../assets/Team/shristi.jpg";
 import BhumiImage from "../assets/Team/bhumi.jpg";
+import AksharaImage from "../assets/Team/Akshara.jpg";
 
 const Team = () => {
   const leadership = [
@@ -120,7 +121,7 @@ const Team = () => {
       name: "Akshara Pathak",
       role: "Design Co-Lead",
       specialization: "Cloud Infrastructure",
-      image: T25,
+      image: AksharaImage,
       icon: (
         <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
