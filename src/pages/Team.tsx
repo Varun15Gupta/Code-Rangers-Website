@@ -5,8 +5,11 @@ import {
   Twitter,
   Mail,
   Code2,
+  Zap,
   Brain,
   Shield,
+  Database,
+  Globe,
 } from "lucide-react";
 
 import VarunImage from "../assets/Team/varun.jpg";
@@ -21,9 +24,8 @@ import ManiImage from "../assets/Team/mani.jpg";
 import PunitImage from "../assets/Team/punit.jpg";
 import ShristiImage from "../assets/Team/shristi.jpg";
 import BhumiImage from "../assets/Team/bhumi.jpg";
-import AksharaImage from "../assets/Team/akshara.jpg";
+import AksharaImage from "../assets/Team/Akshara.jpg";
 import DivinaImage from "../assets/Team/divina.jpg";
-import HarshitImage from "../assets/Team/harshit.jpg"; // ✅ Added missing import
 
 const Team = () => {
   const leadership = [
@@ -77,16 +79,12 @@ const Team = () => {
   const coreTeam = [
     {
       name: "Punit Kumar",
-      role: "Development Lead",
+      role: "Devlopment Lead",
       specialization: "Embedded Systems",
       image: PunitImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          href="https://www.linkedin.com/in/punitkumar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -128,16 +126,12 @@ const Team = () => {
     },
     {
       name: "Sneha Santra",
-      role: "Development Co-Lead",
+      role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
       image: SnehaImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          href="https://www.linkedin.com/in/sneha-santra/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -149,11 +143,7 @@ const Team = () => {
       specialization: "Cloud Infrastructure",
       image: AksharaImage,
       icon: (
-        <a
-          href="https://www.linkedin.com/in/akshara-pathak/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -178,12 +168,12 @@ const Team = () => {
     },
     {
       name: "Akash Yadav",
-      role: "Development Member",
+      role: "Devlopment Member",
       specialization: "Analytics & Visualization",
       image: AakashImage,
       icon: (
         <a
-          href="https://www.linkedin.com/in/akash-yadav/"
+          href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -216,11 +206,7 @@ const Team = () => {
       image: ShristiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          href="https://www.linkedin.com/in/srishti/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -233,11 +219,7 @@ const Team = () => {
       image: BhumiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          href="https://www.linkedin.com/in/bhumi-sharma/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -250,11 +232,7 @@ const Team = () => {
       image: NadishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          href="https://www.linkedin.com/in/nadish/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -266,11 +244,7 @@ const Team = () => {
       specialization: "Smart Contracts & DeFi",
       image: AnkitImage,
       icon: (
-        <a
-          href="https://www.linkedin.com/in/ankit-kumar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -282,23 +256,29 @@ const Team = () => {
     <div className="pt-16 min-h-screen">
       {/* Hero Section */}
       <section className="relative py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            Core Committee
-          </h1>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Meet the digital architects, problem solvers, and tech innovators
-            who drive Code Rangers. Each member brings unique expertise, united
-            in shaping the future of technology.
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+                Core Committee
+              </span>
+            </h1>
+            <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+              Meet the digital architects, problem solvers, and tech innovators
+              who drive Coder Rangers. Each member brings unique expertise,
+              united in shaping the future of technology.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Leadership Team */}
       <section className="relative pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <h2 className="text-3xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            COMMAND CENTER
+          <h2 className="text-3xl font-bold text-center mb-16">
+            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              COMMAND CENTER
+            </span>
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
@@ -310,7 +290,8 @@ const Team = () => {
                 <div
                   className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}
                 ></div>
-                <div className="relative z-10 text-center">
+                <div className="relative z-10">
+                  {/* Profile Image */}
                   <div className="relative mb-6">
                     <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-cyan-500/30 group-hover:border-cyan-500/60 transition-colors duration-300">
                       <img
@@ -325,25 +306,35 @@ const Team = () => {
                       {member.icon}
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-1 group-hover:text-cyan-300 transition-colors duration-300">
-                    {member.name}
-                  </h3>
-                  <p className="text-cyan-400 font-medium text-sm mb-1 font-mono">
-                    {member.role}
-                  </p>
-                  <p className="text-gray-400 text-xs font-mono mb-4">
-                    {member.specialization}
-                  </p>
-                  <div className="flex flex-wrap gap-2 justify-center mb-4">
-                    {member.skills.map((skill, i) => (
-                      <span
-                        key={i}
-                        className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded-md font-mono border border-cyan-500/30"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+
+                  {/* Member Info */}
+                  <div className="text-center mb-6">
+                    <h3 className="text-xl font-semibold text-white mb-1 group-hover:text-cyan-300 transition-colors duration-300">
+                      {member.name}
+                    </h3>
+                    <p className="text-cyan-400 font-medium text-sm mb-1 font-mono">
+                      {member.role}
+                    </p>
+                    <p className="text-gray-400 text-xs font-mono">
+                      {member.specialization}
+                    </p>
                   </div>
+
+                  {/* Skills */}
+                  <div className="mb-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      {member.skills.map((skill, skillIndex) => (
+                        <span
+                          key={skillIndex}
+                          className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded-md font-mono border border-cyan-500/30"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Social Links */}
                   <div className="flex justify-center space-x-4">
                     <a
                       href={member.social.github}
@@ -376,8 +367,10 @@ const Team = () => {
           </div>
 
           {/* Core Team */}
-          <h2 className="text-3xl font-bold text-center mb-16 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
-            CORE OPERATORS
+          <h2 className="text-3xl font-bold text-center mb-16">
+            <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
+              CORE OPERATORS
+            </span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -389,22 +382,28 @@ const Team = () => {
                 <div
                   className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
                 ></div>
-                <div className="relative z-10 flex flex-col items-center text-center mb-4">
-                  <div className="w-20 h-20 rounded-full overflow-hidden border border-cyan-500/20 mb-4">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                    />
-                  </div>
-                  <h3 className="text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
-                    {member.name}
-                  </h3>
-                  <p className="text-cyan-400 text-md font-mono">
-                    {member.role}
-                  </p>
-                  <div className="w-8 h-8 bg-gradient-to-br rounded-lg flex items-center justify-center mt-3">
-                    {member.icon}
+                <div className="relative z-10">
+                  <div className="flex flex-col items-center text-center mb-4">
+                    <div className="w-20 h-20 rounded-full overflow-hidden border border-cyan-500/20 mb-4">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
+                        {member.name}
+                      </h3>
+                      <p className="text-cyan-400 text-md font-mono">
+                        {member.role}
+                      </p>
+                    </div>
+                    <div
+                      className={`w-8 h-8 bg-gradient-to-br ${member.gradient} rounded-lg flex items-center justify-center`}
+                    >
+                      {member.icon}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -446,3 +445,4 @@ const Team = () => {
 };
 
 export default Team;
+
