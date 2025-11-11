@@ -1,5 +1,13 @@
 import React from "react";
-import { Github, Linkedin, Twitter, Mail, Code2, Brain, Shield } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Twitter,
+  Mail,
+  Code2,
+  Brain,
+  Shield,
+} from "lucide-react";
 
 import HarshitImage from "../assets/Team/harshit.jpg";
 import VarunImage from "../assets/Team/varun.jpg";
@@ -74,10 +82,11 @@ const Team = () => {
       image: PunitImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/punit-kumar" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-cyan-500 to-blue-500",
     },
     {
       name: "Mani Goel",
@@ -86,10 +95,15 @@ const Team = () => {
       image: ManiImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/mani-goel-8709b6327/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-pink-500 to-red-500",
     },
     {
       name: "K Varshini",
@@ -98,10 +112,15 @@ const Team = () => {
       image: VarshiniImage,
       skills: ["React", "TypeScript", "Three.js", "WebGL"],
       icon: (
-        <a href="https://www.linkedin.com/in/varshini-kota-85a8082b0/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/varshini-kota-85a8082b0/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-green-400 to-cyan-400",
     },
     {
       name: "Sneha Santra",
@@ -110,10 +129,11 @@ const Team = () => {
       image: SnehaImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/sneha-santra" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-indigo-500 to-purple-500",
     },
     {
       name: "Akshara Pathak",
@@ -121,10 +141,11 @@ const Team = () => {
       specialization: "Cloud Infrastructure",
       image: AksharaImage,
       icon: (
-        <a href="https://www.linkedin.com/in/akshara-pathak" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-orange-500 to-yellow-500",
     },
     {
       name: "Aashish Dagar",
@@ -133,10 +154,15 @@ const Team = () => {
       image: AashishImage,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-purple-500 to-cyan-500",
     },
     {
       name: "Akash Yadav",
@@ -144,10 +170,15 @@ const Team = () => {
       specialization: "Analytics & Visualization",
       image: AakashImage,
       icon: (
-        <a href="https://www.linkedin.com/in/akash-yadav" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-cyan-500 to-green-500",
     },
     {
       name: "Divina Khattar",
@@ -156,10 +187,15 @@ const Team = () => {
       image: DivinaImage,
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
-        <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/divina-khattar-555939360/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-pink-500 to-purple-500",
     },
     {
       name: "Srishti",
@@ -167,10 +203,11 @@ const Team = () => {
       specialization: "Embedded Systems",
       image: ShristiImage,
       icon: (
-        <a href="https://www.linkedin.com/in/srishti" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-green-500 to-teal-500",
     },
     {
       name: "Bhumi Sharma",
@@ -178,10 +215,11 @@ const Team = () => {
       specialization: "Embedded Systems",
       image: BhumiImage,
       icon: (
-        <a href="https://www.linkedin.com/in/bhumi-sharma" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-orange-400 to-red-400",
     },
     {
       name: "Nadish",
@@ -189,10 +227,11 @@ const Team = () => {
       specialization: "Embedded Systems",
       image: NadishImage,
       icon: (
-        <a href="https://www.linkedin.com/in/nadish" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-blue-500 to-indigo-500",
     },
     {
       name: "Ankit Kumar",
@@ -200,10 +239,15 @@ const Team = () => {
       specialization: "Smart Contracts & DeFi",
       image: AnkitImage,
       icon: (
-        <a href="https://www.linkedin.com/in/ankit-kumar" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/ankit-kumar-728553275/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
+      gradient: "from-purple-500 to-pink-500",
     },
   ];
 
@@ -212,45 +256,74 @@ const Team = () => {
       {/* Hero Section */}
       <section className="relative py-20 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Core Committee</span>
+          <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            Core Committee
+          </span>
         </h1>
-        <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-          Meet the digital architects, problem solvers, and innovators who drive Code Rangers. Each member brings unique expertise, united in shaping the future of technology.
+        <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+          Meet the digital architects, problem solvers, and innovators driving
+          Code Rangers forward.
         </p>
       </section>
 
-      {/* Leadership Section */}
+      {/* Leadership Team */}
       <section className="pb-20">
         <h2 className="text-3xl font-bold text-center mb-16">
-          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">COMMAND CENTER</span>
+          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            COMMAND CENTER
+          </span>
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
-          {leadership.map((member, i) => (
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20 px-6">
+          {leadership.map((member, index) => (
             <div
-              key={i}
-              className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-10 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-300 backdrop-blur-sm overflow-hidden transform hover:scale-105"
+              key={index}
+              className="group relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-10 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-300 backdrop-blur-sm hover:scale-105"
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`} />
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}
+              ></div>
+
               <div className="relative z-10 text-center">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-2 border-cyan-500/30 group-hover:border-cyan-500/60 transition">
-                  <img src={member.image} alt={member.name} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" />
+                <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-cyan-500/30 mb-4">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-xl font-semibold text-white">{member.name}</h3>
-                <p className="text-cyan-400 font-mono">{member.role}</p>
-                <p className="text-gray-400 text-xs mb-4">{member.specialization}</p>
+                <h3 className="text-xl font-semibold text-white mb-1 group-hover:text-cyan-300">
+                  {member.name}
+                </h3>
+                <p className="text-cyan-400 font-medium text-sm mb-1 font-mono">
+                  {member.role}
+                </p>
+                <p className="text-gray-400 text-xs font-mono mb-4">
+                  {member.specialization}
+                </p>
                 <div className="flex flex-wrap justify-center gap-2 mb-4">
-                  {member.skills.map((skill, idx) => (
-                    <span key={idx} className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded-md font-mono border border-cyan-500/30">
+                  {member.skills.map((skill, i) => (
+                    <span
+                      key={i}
+                      className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded-md font-mono border border-cyan-500/30"
+                    >
                       {skill}
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-center gap-4">
-                  <a href={member.social.github}><Github className="w-5 h-5 text-gray-400 hover:text-white" /></a>
-                  <a href={member.social.linkedin}><Linkedin className="w-5 h-5 text-gray-400 hover:text-blue-400" /></a>
-                  <a href={member.social.twitter}><Twitter className="w-5 h-5 text-gray-400 hover:text-cyan-400" /></a>
-                  <a href={`mailto:${member.social.email}`}><Mail className="w-5 h-5 text-gray-400 hover:text-purple-400" /></a>
+                <div className="flex justify-center space-x-4">
+                  <a href={member.social.github} target="_blank" rel="noopener noreferrer">
+                    <Github className="w-5 h-5 text-gray-400 hover:text-white" />
+                  </a>
+                  <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="w-5 h-5 text-gray-400 hover:text-blue-400" />
+                  </a>
+                  <a href={member.social.twitter} target="_blank" rel="noopener noreferrer">
+                    <Twitter className="w-5 h-5 text-gray-400 hover:text-cyan-400" />
+                  </a>
+                  <a href={`mailto:${member.social.email}`}>
+                    <Mail className="w-5 h-5 text-gray-400 hover:text-purple-400" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -259,37 +332,59 @@ const Team = () => {
 
         {/* Core Team */}
         <h2 className="text-3xl font-bold text-center mb-16">
-          <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">CORE OPERATORS</span>
+          <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
+            CORE OPERATORS
+          </span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {coreTeam.map((member, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
+          {coreTeam.map((member, index) => (
             <div
-              key={i}
-              className="group relative bg-gradient-to-br from-gray-900/30 to-black/30 rounded-xl p-6 border border-cyan-500/10 hover:border-cyan-500/30 transition-all duration-300 backdrop-blur-sm transform hover:scale-105"
+              key={index}
+              className="group relative bg-gradient-to-br from-gray-900/30 to-black/30 rounded-xl p-6 border border-cyan-500/10 hover:border-cyan-500/30 transition-all duration-300 backdrop-blur-sm hover:scale-105"
             >
-              <div className="text-center relative z-10">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border border-cyan-500/20">
-                  <img src={member.image} alt={member.name} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300" />
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
+              ></div>
+
+              <div className="relative z-10 text-center">
+                <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border border-cyan-500/20 mb-4">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
                 </div>
-                <h3 className="text-lg font-semibold text-white">{member.name}</h3>
-                <p className="text-cyan-400 font-mono">{member.role}</p>
-                <div className="mt-2 flex justify-center">{member.icon}</div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-cyan-300">
+                  {member.name}
+                </h3>
+                <p className="text-cyan-400 text-md font-mono mb-2">
+                  {member.role}
+                </p>
+                <div>{member.icon}</div>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Join CTA */}
       <section className="py-20 text-center">
-        <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-12 border border-cyan-500/20 backdrop-blur-sm max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-12 border border-cyan-500/20 backdrop-blur-sm">
           <Code2 className="w-16 h-16 text-cyan-400 mx-auto mb-6 animate-pulse" />
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Join <span className="text-cyan-400">Code Rangers</span>?
+            Ready to Join
+            <span className="text-cyan-400"> Code Rangers</span>?
           </h2>
-          <p className="text-gray-300 mb-8 text-lg">We’re always looking for passionate devs, designers, and tech enthusiasts to join our elite team.</p>
-          <a href="https://forms.gle/1JYbtSHaowKCnAit9" target="_blank" rel="noopener noreferrer">
+          <p className="text-gray-300 mb-8 text-lg">
+            We're always looking for passionate developers, designers, and tech
+            enthusiasts to join our elite team.
+          </p>
+          <a
+            href="https://forms.gle/1JYbtSHaowKCnAit9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-600 hover:to-cyan-500 transition-all duration-300 font-mono">
               APPLY NOW
             </button>
@@ -301,5 +396,6 @@ const Team = () => {
 };
 
 export default Team;
+
 
 
