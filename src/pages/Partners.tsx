@@ -43,6 +43,11 @@ const Partners = () => {
       image: "https://ik.imagekit.io/logicsync/rise%20in%20.jpeg?updatedAt=1762984171098",
       tier: "Silver",
     },
+    {
+      name: "Sponsor 8",
+      image: "https://ik.imagekit.io/logicsync/duality%20.jpeg?updatedAt=1762984382166",
+      tier: "Silver",
+    },
   ];
 
   const communityPartners = [
