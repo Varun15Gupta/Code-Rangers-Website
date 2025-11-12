@@ -23,6 +23,21 @@ const Partners = () => {
       image: "https://ik.imagekit.io/logicsync/Screenshot%202025-11-13%20030519.png?updatedAt=1762983367673",
       tier: "Silver",
     },
+    {
+      name: "Sponsor 5",
+      image: "https://ik.imagekit.io/logicsync/fizzico.jpeg?updatedAt=1762982770870",
+      tier: "Silver",
+    },
+    {
+      name: "Sponsor 6",
+      image: "https://ik.imagekit.io/logicsync/lazer%20crazer.png?updatedAt=1762982771347",
+      tier: "Silver",
+    },
+    {
+      name: "Sponsor 7",
+      image: "https://ik.imagekit.io/logicsync/Screenshot%202025-11-13%20030519.png?updatedAt=1762983367673",
+      tier: "Silver",
+    },
   ];
 
   const communityPartners = [
