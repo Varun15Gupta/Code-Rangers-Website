@@ -44,8 +44,13 @@ const Partners = () => {
       tier: "Silver",
     },
     {
-      name: "Sponsor 8",
+      name: "Sponsor 9",
       image: "https://ik.imagekit.io/logicsync/duality%20.jpeg?updatedAt=1762984382166",
+      tier: "Silver",
+    },
+    {
+      name: "Sponsor 9",
+      image: "https://ik.imagekit.io/logicsync/runanywhere.png?updatedAt=1762984618403",
       tier: "Silver",
     },
   ];
