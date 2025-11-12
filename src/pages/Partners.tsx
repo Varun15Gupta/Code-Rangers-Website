@@ -5,17 +5,17 @@ const Partners = () => {
   const sponsors = [
     {
       name: "Sponsor 1",
-      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+1",
+      image: "https://ik.imagekit.io/logicsync/the%20dopamine%20store.png?updatedAt=1762982903129",
       tier: "Platinum",
     },
     {
       name: "Sponsor 2",
-      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+2",
+      image: "https://ik.imagekit.io/logicsync/abhibus.jpeg?updatedAt=1762982986424",
       tier: "Gold",
     },
     {
       name: "Sponsor 3",
-      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+3",
+      image: "https://ik.imagekit.io/logicsync/aptos%20.jpeg?updatedAt=1762982769979",
       tier: "Gold",
     },
     {
