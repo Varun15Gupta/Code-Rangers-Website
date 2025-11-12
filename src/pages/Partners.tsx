@@ -20,7 +20,7 @@ const Partners = () => {
     },
     {
       name: "Sponsor 4",
-      image: "https://via.placeholder.com/300x150/1a1a1a/06b6d4?text=Sponsor+4",
+      image: "https://ik.imagekit.io/logicsync/Screenshot%202025-11-13%20030519.png?updatedAt=1762983367673",
       tier: "Silver",
     },
   ];
