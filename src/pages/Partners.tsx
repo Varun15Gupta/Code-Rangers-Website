@@ -58,19 +58,47 @@ const Partners = () => {
   const communityPartners = [
     {
       name: "Partner 1",
-      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+1",
+      image: "https://ik.imagekit.io/logicsync/hacking%20vidya.jpg?updatedAt=1762984842499",
     },
     {
       name: "Partner 2",
-      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+2",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.17%20PM%20(2).jpeg?updatedAt=1763056155086",
     },
     {
       name: "Partner 3",
-      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+3",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.44%20PM%20(1).jpeg?updatedAt=1763056156540",
     },
     {
       name: "Partner 4",
-      image: "https://via.placeholder.com/300x150/1a1a1a/10b981?text=Partner+4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 5",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.45%20PM%20(1).jpeg?updatedAt=1763056156909",
+    },
+    {
+      name: "Partner 6",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+    },
+    {
+      name: "Partner 4",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
     },
   ];
 
