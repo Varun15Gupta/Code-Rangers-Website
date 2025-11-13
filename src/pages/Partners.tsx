@@ -136,6 +136,38 @@ const Partners = () => {
       name: "Partner 20",
       image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.53%20PM.jpeg?updatedAt=1763056157449",
     },
+    {
+      name: "Partner 21",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.52%20PM.jpeg?updatedAt=1763056158068",
+    },
+    {
+      name: "Partner 22",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.17%20PM.jpeg?updatedAt=1763056157025",
+    },
+    {
+      name: "Partner 23",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.53%20PM%20(1).jpeg?updatedAt=1763056158026",
+    },
+    {
+      name: "Partner 24",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.44%20PM.jpeg?updatedAt=1763056157453",
+    },
+    {
+      name: "Partner 25",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.47%20PM.jpeg?updatedAt=1763056157354",
+    },
+    {
+      name: "Partner 26",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.17%20PM%20(1).jpeg?updatedAt=1763056157374",
+    },
+    {
+      name: "Partner 27",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.18%20PM%20(1).jpeg?updatedAt=1763056157320",
+    }, 
+    {
+      name: "Partner 28",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.49%20PM.jpeg?updatedAt=1763056157290",
+    }, 
   ];
 
   return (
