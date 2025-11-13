@@ -37,10 +37,10 @@ import H16 from "../assets/Hackathon/Ha16.jpg";
 import H17 from "../assets/Hackathon/Ha17.jpg";
 import H18 from "../assets/Hackathon/Ha18.jpg";
 import H19 from "../assets/Hackathon/Ha19.jpg";
-import S1 from "../assets/Sponsor/S1.jpg";
-import S2 from "../assets/Sponsor/S2.jpg";
-import S3 from "../assets/Sponsor/S3.jpg";
-import S4 from "../assets/Sponsor/S4.jpg";
+import S1 from "../assets/Sponsor/Sp1.jpg";
+import S2 from "../assets/Sponsor/Sp2.jpg";
+import S3 from "../assets/Sponsor/Sp3.jpg";
+import S4 from "../assets/Sponsor/Sp4.jpg";
 const Gallery = () => {
   const gallery = [
     {
