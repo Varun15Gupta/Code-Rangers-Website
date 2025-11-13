@@ -6,6 +6,13 @@ import SM3 from "../assets/StartUp-Mindset/SM3.jpeg";
 import SM4 from "../assets/StartUp-Mindset/SM4.jpg";
 import SM6 from "../assets/StartUp-Mindset/SM6.jpg";
 import SM7 from "../assets/StartUp-Mindset/SM7.jpg";
+import STM1 from "../assets/StartUp-Mindset/STM1.jpeg";
+import STM2 from "../assets/StartUp-Mindset/STM2.jpeg";
+import STM3 from "../assets/StartUp-Mindset/STM3.jpeg";
+import STM4 from "../assets/StartUp-Mindset/STM4.jpg";
+import STM5 from "../assets/StartUp-Mindset/STM5.jpg";
+import STM6 from "../assets/StartUp-Mindset/STM6.jpg";
+import STM7 from "../assets/StartUp-Mindset/STM7.jpg";
 import T1 from "../assets/Techjam/T1.jpg";
 import T3 from "../assets/Techjam/T3.jpg";
 import T4 from "../assets/Techjam/T4.jpg";
@@ -156,13 +163,13 @@ const Gallery = () => {
       image: T8,
       category: "Trinity's Techjam 1.0",
     },
-    { title: "Start-Up Mindset", image: SM1, category: "StartUp-Mindset" },
-    { title: "Seminar Hall", image: SM3, category: "StartUp-Mindset" },
-    { title: "Mr.Shubham Raj, Faculty & Organizing Team", image: SM4, category: "StartUp-Mindset" },
+    { title: "Start-Up Mindset", image: STM1, category: "StartUp-Mindset" },
+    { title: "Seminar Hall", image: STM3, category: "StartUp-Mindset" },
+    { title: "Mr.Shubham Raj, Faculty & Organizing Team", image: STM4, category: "StartUp-Mindset" },
 
-    { title: "Trophy", image: SM6, category: "StartUp-Mindset" },
-    { title: "Group Photo", image: sm2, category: "StartUp-Mindset" },
-    { title: "Attendees", image: SM7, category: "StartUp-Mindset" },
+    { title: "Trophy", image: STM6, category: "StartUp-Mindset" },
+    { title: "Group Photo", image: STM2, category: "StartUp-Mindset" },
+    { title: "Attendees", image: STM7, category: "StartUp-Mindset" },
     // Sponsorships
     {
       title: "Hack loop (Gurgaon)",
