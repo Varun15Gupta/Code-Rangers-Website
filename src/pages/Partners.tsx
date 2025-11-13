@@ -81,24 +81,60 @@ const Partners = () => {
       image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
     },
     {
-      name: "Partner 4",
-      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+      name: "Partner 7",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.15%20PM.jpeg?updatedAt=1763056157474",
     },
     {
-      name: "Partner 4",
-      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+      name: "Partner 8",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.48%20PM.jpeg?updatedAt=1763056156640",
     },
     {
-      name: "Partner 4",
-      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+      name: "Partner 9",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.16%20PM.jpeg?updatedAt=1763056157138",
     },
     {
-      name: "Partner 4",
-      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+      name: "Partner 10",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.18%20PM.jpeg?updatedAt=1763056157862",
     },
     {
-      name: "Partner 4",
-      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.14%20PM.jpeg?updatedAt=1763056154562",
+      name: "Partner 11",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.23%20PM.jpeg?updatedAt=1763056157851",
+    },
+    {
+      name: "Partner 12",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.20%20PM.jpeg?updatedAt=1763056157653",
+    },
+    {
+      name: "Partner 13",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.50%20PM.jpeg?updatedAt=1763056157657",
+    },
+    {
+      name: "Partner 14",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.52%20PM%20(1).jpeg?updatedAt=1763056158181",
+    },
+    {
+      name: "Partner 15",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.19%20PM.jpeg?updatedAt=1763056158170",
+    },
+    {
+      name: "Partner 16",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.19%20PM%20(1).jpeg?updatedAt=1763056158163",
+    },
+    {
+      name: "Partner 17",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.51%20PM.jpeg?updatedAt=1763056158107",
+    },
+    {
+      name: "Partner 18",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.52%20PM%20(2).jpeg?updatedAt=1763056157523",
+    },
+    {
+      name: "Partner 19",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.45%20PM.jpeg?updatedAt=1763056157511",
+    },
+    {
+      name: "Partner 20",
+      image: "https://ik.imagekit.io/logicsync/WhatsApp%20Image%202025-11-13%20at%2010.56.53%20PM.jpeg?updatedAt=1763056157449",
     },
   ];
 
