@@ -24,6 +24,7 @@ import ShristiImage from "../assets/Team/shristi.jpg";
 import BhumiImage from "../assets/Team/bhumi.jpg";
 import AksharaImage from "../assets/Team/Akshara.jpg";
 import DivinaImage from "../assets/Team/divina.jpg";
+import SamiranImage from "../assets/Team/samiran (2).jpg";
 
 const Team = () => {
   const leadership = [
@@ -198,16 +199,21 @@ const Team = () => {
       gradient: "from-pink-500 to-purple-500",
     },
     {
-      name: "Srishti",
-      role: "Event Coordinator Member",
+      name: "Samiran Das",
+      role: "Technical Lead",
       specialization: "Embedded Systems",
-      image: ShristiImage,
+      image: SamiranImage,
+      skills: ["Cybersecurity", "AIML", "Web Dev", "Raspberry Pi"],
       icon: (
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/samiran-das-33531123b"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
-      gradient: "from-green-500 to-teal-500",
+      gradient: "from-purple-500 to-cyan-500",
     },
     {
       name: "Bhumi Sharma",
