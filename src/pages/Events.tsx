@@ -13,7 +13,7 @@ const Events = () => {
       location: "TIIPS Greater Noida",
       attendees: 300,
       difficulty: "All levels",
-      link: "https://www.namespace.world/events/2N5BNA",
+      link: "",
       tentative: true,
       isLive: true,
 
