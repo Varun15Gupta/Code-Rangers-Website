@@ -5,7 +5,7 @@ const Features = () => {
   const features = [
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Collaborative Learning",
+      title: "Collaborative Learnin",
       description: "Join study groups, pair programming sessions, and collaborative projects with fellow developers.",
       specs: [],
     },
