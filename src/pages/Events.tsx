@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "May,2026 7th & 8th",
+      date: "May,2026 7",
       time: "9:00AM",
       title: "Code Nakshatra 2.0 Hackathon",
       description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
