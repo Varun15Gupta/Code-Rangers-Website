@@ -33,6 +33,19 @@ const Events = () => {
 
     },
     {
+      date: "Dec,2025 30",
+      time: "10:00AM",
+      title: "Industiral Visit",
+      description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
+      type: "Visit",
+      color: "from-orange-500 to-red-500",
+      location: "TBD",
+      attendees: 200,
+      difficulty: "All Levels",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      tentative: true,
+    }, 
+    {
       date: "May,2026 18",
       time: "9:00AM",
       title: "Industiral Visit",
