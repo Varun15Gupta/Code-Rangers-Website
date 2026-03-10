@@ -74,7 +74,6 @@ const Events = () => {
       date: "14th Nov, 2025"',
       participants: "150+",
       description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn't just a hackathon — it's a launchpad for future tech leaders.",
-      participants: "150+",
       link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
     },
     {
