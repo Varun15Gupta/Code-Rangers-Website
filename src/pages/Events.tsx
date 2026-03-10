@@ -15,6 +15,7 @@ const Events = () => {
       difficulty: "All levels",
       link: "https://www.namespace.world/events/2N5BNA",
       tentative: true,
+      isLive: true,
       
     },
     {
@@ -29,7 +30,6 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
-      isLive: true,
       
     },
     {
