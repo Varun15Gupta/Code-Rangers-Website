@@ -4,16 +4,16 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "Nov,2025 14",
+      date: "May,2026 7th & 8th",
       time: "9:00AM",
-      title: "TechJam2.0 Flagship Hackathon",
-      description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn't just a hackathon — it's a launchpad for future tech leaders.",
+      title: "Code Nakshatra 2.0 Hackathon",
+      description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
       type: "Hackathon",
-      color: "from-green-400 to-cyan-400",
-      location: "Microsoft Office Noida",
-      attendees: 100,
-      difficulty: "All Levels",
-      link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
+      color: "from-orange-500 to-red-500",
+      location: "TIIPS Greater Noida",
+      attendees: 300,
+      difficulty: "All levels",
+      link: "https://www.namespace.world/events/2N5BNA",
       tentative: true,
       isLive: true,
 
@@ -30,21 +30,6 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
-
-    },
-    {
-      date: "May,2026 7th & 8th",
-      time: "9:00AM",
-      title: "Code Nakshatra 2.0 Hackathon",
-      description: "Code Nakshatra is the signature 24-hour hackathon by Code Rangers — where innovation never sleeps! Dive into a full-day marathon of coding, creativity, and collaboration as the brightest minds come together to craft next-gen solutions in AI, Web, Cloud, and Cybersecurity. With round-the-clock mentorship, intense problem-solving, and massive rewards, Code Nakshatra isn’t just a hackathon — it’s a galactic journey of innovation and impact.",
-      type: "Hackathon",
-      color: "from-orange-500 to-red-500",
-      location: "TBD",
-      attendees: 300,
-      difficulty: "All levels",
-      link: "",
-      tentative: true,
-      isLive: true,
 
     },
     {
@@ -70,6 +55,14 @@ const Events = () => {
       participants: "100+",
       description: "Shubham Raj, CEO of Zeber, inspired students with his journey from school innovator to entrepreneur at the Session.",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7251182981036269568/",
+    },
+    {
+      title: "TechJam2.0 Flagship Hackathon",
+      date: "14th Nov, 2025"',
+      participants: "150+",
+      description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn't just a hackathon — it's a launchpad for future tech leaders.",
+      participants: "150+",
+      link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
     },
     {
       title: "Trinity's TechJam 1.0",
