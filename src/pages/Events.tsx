@@ -44,6 +44,7 @@ const Events = () => {
       difficulty: "All levels",
       link: "",
       tentative: true,
+      isLive: true,
 
     },
     {
