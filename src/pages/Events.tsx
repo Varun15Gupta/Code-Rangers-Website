@@ -16,6 +16,7 @@ const Events = () => {
       link: "https://www.namespace.world/events/2N5BNA",
       tentative: true,
       isLive: true,
+      
     },
     {
       date: "Nov,2025 28",
