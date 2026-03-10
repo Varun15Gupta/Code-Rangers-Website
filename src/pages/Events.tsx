@@ -30,7 +30,7 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
-
+      
     },
     {
       date: "Dec,2025 30",
@@ -44,6 +44,7 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
+      
     }, 
     {
       date: "May,2026 18",
