@@ -16,10 +16,10 @@ const Events = () => {
       link: "https://www.namespace.world/events/2N5BNA",
       tentative: true,
       isLive: true,
-      
+
     },
     {
-      date: "Nov,2025 28",
+      date: "Nov,2026 28",
       time: "9:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
@@ -30,10 +30,10 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
-      
+
     },
     {
-      date: "Dec,2025 30",
+      date: "Dec,2026 30",
       time: "10:00AM",
       title: "Industiral Visit",
       description: "Industrial Visit offers students a chance to explore the real-world workings of the tech and business industry. From witnessing cutting-edge technologies to learning industry best practices directly from professionals, participants will gain insights that bridge academic learning with practical application. This experience will help them understand the skills and mindset needed to excel in their careers.",
@@ -44,8 +44,8 @@ const Events = () => {
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
       tentative: true,
-      
-    }, 
+
+    },
     {
       date: "May,2026 18",
       time: "9:00AM",
@@ -72,7 +72,7 @@ const Events = () => {
     },
     {
       title: "TechJam2.0 Flagship Hackathon",
-      date: "14th Nov, 2025"',
+      date: "14th Nov, 2025",
       participants: "150+",
       description: "TechJam 2.0 is the flagship offline hackathon where brilliant minds unite for a 9-to-5 innovation sprint! Build, innovate, and pitch groundbreaking ideas in tech — from AI to cybersecurity and beyond.With expert mentorship, teamwork, and epic prizes, TechJam 2.0 isn't just a hackathon — it's a launchpad for future tech leaders.",
       link: "https://unstop.com/hackathons/techjam20-trinity-institute-of-innovations-in-professional-studies-1578104",
@@ -119,11 +119,11 @@ const Events = () => {
                     <div className="flex items-center space-x-4">
                       <div className="text-center">
                         <div className="text-3xl font-bold text-cyan-400 font-mono">{event.date.split(" ")[1]}</div>
-                       <div className="text-sm text-yellow-400 uppercase font-mono">{event.date.split(" ")[0]}
+                        <div className="text-sm text-yellow-400 uppercase font-mono">{event.date.split(" ")[0]}
                         </div>
                         {event.tentative && (
-    <div className="text-xs text-gray-400 font-mono mt-1">(Tentative)</div>
-  )}
+                          <div className="text-xs text-gray-400 font-mono mt-1">(Tentative)</div>
+                        )}
                       </div>
                       <div>
                         <div className="flex items-center gap-2">
